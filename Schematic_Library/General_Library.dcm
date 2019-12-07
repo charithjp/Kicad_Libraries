@@ -8,6 +8,7 @@ $ENDCMP
 #
 $CMP Delta_E48SC12010NRFA
 D Isolated Module DCDC Converter 1 Output 12V 10A 36V - 75V Input, https://www.digikey.com/product-detail/en/delta-electronics/E48SC12010NRFA/941-1766-ND/6133808
+F https://www.digikey.com/product-detail/en/delta-electronics/E48SC12010NRFA/941-1766-ND/6133808
 $ENDCMP
 #
 $CMP SQJQ480E
