@@ -8,10 +8,54 @@ $ENDCMP
 #
 $CMP Delta_E48SC12010NRFA
 D Isolated Module DCDC Converter 1 Output 12V 10A 36V - 75V Input, https://www.digikey.com/product-detail/en/delta-electronics/E48SC12010NRFA/941-1766-ND/6133808
+F https://www.digikey.com/product-detail/en/delta-electronics/E48SC12010NRFA/941-1766-ND/6133808
 $ENDCMP
 #
-$CMP E48SC12010NRFA
-D Isolated Module DCDC Converter 1 Output 12V 10A 36V - 75V Input, https://www.digikey.com/product-detail/en/delta-electronics/E48SC12010NRFA/941-1766-ND/6133808
+$CMP INA381
+D INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator
+F http://www.ti.com/lit/ds/symlink/ina381.pdf
+$ENDCMP
+#
+$CMP R-78HB12-0.5
+D 500mA Step-Down DC/DC-Regulator, 17-72V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
+K dc-dc recom Step-Down DC/DC-Regulator
+F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+$ENDCMP
+#
+$CMP R-78HB15-0.5
+D 500mA Step-Down DC/DC-Regulator, 20-72V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
+K dc-dc recom Step-Down DC/DC-Regulator
+F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+$ENDCMP
+#
+$CMP R-78HB3.3-0.5
+D 500mA Step-Down DC/DC-Regulator, 9-72V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
+K dc-dc recom Step-Down DC/DC-Regulator
+F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+$ENDCMP
+#
+$CMP R-78HB5.0-0.5
+D 500mA Step-Down DC/DC-Regulator, 9-72V input, 5.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
+K dc-dc recom Step-Down DC/DC-Regulator
+F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+$ENDCMP
+#
+$CMP R-78HB6.5-0.5
+D 500mA Step-Down DC/DC-Regulator, 9-72V input, 6.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
+K dc-dc recom Step-Down DC/DC-Regulator
+F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+$ENDCMP
+#
+$CMP R-78HB9.0-0.5
+D 500mA Step-Down DC/DC-Regulator, 14-72V input, 9.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
+K dc-dc recom Step-Down DC/DC-Regulator
+F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+$ENDCMP
+#
+$CMP R-78HE5.0-0.3
+D 300mA Step-Down DC/DC-Regulator, 6.5-72V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
+K dc-dc recom Step-Down DC/DC-Regulator
+F https://recom-power.com/pdf/Innoline/R-78HE-0.3.pdf
 $ENDCMP
 #
 $CMP SQJQ480E
