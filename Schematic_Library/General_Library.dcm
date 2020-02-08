@@ -1,7 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADR4525ARZ
+D 2.5V Voltage Reference, Ultralow Noise High Accuracy, SOIC-8
+K voltage reference Ultraprecision Low Noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
 $CMP ADS1256
-D 24-bit ADC, 8 Channels, SPI compatible, PGA 1 to 128, TSSOP-20
+D 24-bit ADC, 8 Channels, SPI compatible, PGA 1 to 128, SSOP-28
 K 24bit ADC 8 Channels PGA SPI
 F http://www.ti.com/product/ADS1256
 $ENDCMP
