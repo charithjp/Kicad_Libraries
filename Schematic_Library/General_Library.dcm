@@ -92,6 +92,11 @@ K Gate Driver
 F http://www.ti.com/product/UCC27201
 $ENDCMP
 #
+$CMP USR-ES1
+D USR-ES1 - W5500 Ethernet to SPI breakout board
+F https://www.usriot.com/download/ES1/USR-ES1-EN-V1.0.pdf
+$ENDCMP
+#
 $CMP VOM1271
 D Photovoltaic Driver with Integrated Fast Turn Off, SOP-4
 F http://www.vishay.com/docs/83469/vom1271t.pdf
