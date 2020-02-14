@@ -76,6 +76,10 @@ K N-Channel MOSFET
 F https://www.vishay.com/docs/76718/sqjq480e.pdf
 $ENDCMP
 #
+$CMP SWD_HDR
+D 5P Header for SWD Programming
+$ENDCMP
+#
 $CMP UCC27200
 D High and Low Side Driver, 120V, 3.0/3.0A, High immunity, SOIC-8/SO-8
 K Gate Driver
