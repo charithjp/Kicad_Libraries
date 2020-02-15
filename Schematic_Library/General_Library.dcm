@@ -28,6 +28,12 @@ D INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator
 F http://www.ti.com/lit/ds/symlink/ina381.pdf
 $ENDCMP
 #
+$CMP NCP163
+D 250mA Low Noise High PSRR LDO, Fixed Output, SOT-23-5
+K 250mA LDO Regulator Fixed Positive
+F https://www.onsemi.com/pub/Collateral/NCP163-D.PDF
+$ENDCMP
+#
 $CMP R-78HB12-0.5
 D 500mA Step-Down DC/DC-Regulator, 17-72V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
 K dc-dc recom Step-Down DC/DC-Regulator
