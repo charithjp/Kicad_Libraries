@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADR4525ARZ
+D 2.5V Voltage Reference, Ultralow Noise High Accuracy, SOIC-8
+K voltage reference Ultraprecision Low Noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADS1256
+D 24-bit ADC, 8 Channels, SPI compatible, PGA 1 to 128, SSOP-28
+K 24bit ADC 8 Channels PGA SPI
+F http://www.ti.com/product/ADS1256
+$ENDCMP
+#
 $CMP CPC1004N
 D Form A, Solid State Relay (Photo MOSFET) 100V, 0.3A, 4Ohm, SO-4
 K MOSFET Output Photorelay 1-Form-A
@@ -11,9 +23,23 @@ D Isolated Module DCDC Converter 1 Output 12V 10A 36V - 75V Input, https://www.d
 F https://www.digikey.com/product-detail/en/delta-electronics/E48SC12010NRFA/941-1766-ND/6133808
 $ENDCMP
 #
+$CMP HDR_1x04
+D 1x04 Pin Header
+$ENDCMP
+#
+$CMP HDR_2x04
+D 2x04 Pin Header
+$ENDCMP
+#
 $CMP INA381
 D INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator
 F http://www.ti.com/lit/ds/symlink/ina381.pdf
+$ENDCMP
+#
+$CMP NCP163
+D 250mA Low Noise High PSRR LDO, Fixed Output, SOT-23-5
+K 250mA LDO Regulator Fixed Positive
+F https://www.onsemi.com/pub/Collateral/NCP163-D.PDF
 $ENDCMP
 #
 $CMP R-78HB12-0.5
@@ -62,6 +88,27 @@ $CMP SQJQ480E
 D 150A Id, 80V Vds, 3mOhm Rds, N-Channel MOSFET PowerPAK 8x8L
 K N-Channel MOSFET
 F https://www.vishay.com/docs/76718/sqjq480e.pdf
+$ENDCMP
+#
+$CMP SWD_HDR
+D 5P Header for SWD Programming
+$ENDCMP
+#
+$CMP UCC27200
+D High and Low Side Driver, 120V, 3.0/3.0A, High immunity, SOIC-8/SO-8
+K Gate Driver
+F http://www.ti.com/product/UCC27200?qgpn=ucc27200
+$ENDCMP
+#
+$CMP UCC27201
+D High and Low Side Driver, 120V, 3.0/3.0A, TTL-In, SOIC-8/SO-8
+K Gate Driver
+F http://www.ti.com/product/UCC27201
+$ENDCMP
+#
+$CMP USR-ES1
+D USR-ES1 - W5500 Ethernet to SPI breakout board
+F https://www.usriot.com/download/ES1/USR-ES1-EN-V1.0.pdf
 $ENDCMP
 #
 $CMP VOM1271
