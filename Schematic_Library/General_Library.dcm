@@ -31,6 +31,11 @@ $CMP HDR_2x04
 D 2x04 Pin Header
 $ENDCMP
 #
+$CMP HEF4043B
+D S-R Latch 4 Channel 1:1 IC Tri-State 16-SO
+F https://www.digikey.com/product-detail/en/nexperia-usa-inc/HEF4043BT653/1727-1799-1-ND/4764782
+$ENDCMP
+#
 $CMP INA381
 D INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator
 F http://www.ti.com/lit/ds/symlink/ina381.pdf
@@ -40,6 +45,12 @@ $CMP NCP163
 D 250mA Low Noise High PSRR LDO, Fixed Output, SOT-23-5
 K 250mA LDO Regulator Fixed Positive
 F https://www.onsemi.com/pub/Collateral/NCP163-D.PDF
+$ENDCMP
+#
+$CMP Omron_Tactile_B3F-1xxx
+D MEC 5G single pole normally-open tactile switch
+K switch normally-open pushbutton push-button
+F https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3F-1002/SW401-ND/11881
 $ENDCMP
 #
 $CMP R-78HB12-0.5
