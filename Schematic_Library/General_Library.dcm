@@ -41,6 +41,11 @@ D INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator
 F http://www.ti.com/lit/ds/symlink/ina381.pdf
 $ENDCMP
 #
+$CMP MC74HC08A
+D AND Gate IC 4 Channel 14-SOIC
+F https://www.digikey.com/product-detail/en/on-semiconductor/MC74HC08ADR2G/MC74HC08ADR2GOSCT-ND/1139713
+$ENDCMP
+#
 $CMP NCP163
 D 250mA Low Noise High PSRR LDO, Fixed Output, SOT-23-5
 K 250mA LDO Regulator Fixed Positive
