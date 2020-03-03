@@ -12,6 +12,12 @@ K 24bit ADC 8 Channels PGA SPI
 F http://www.ti.com/product/ADS1256
 $ENDCMP
 #
+$CMP AOD2610E
+D 46A Id, 60V Vds, N-Channel Power MOSFET, 9.5mOhm Ron, 14.5nC Qg (typ), TO-252-2
+K LCSC Power MOSFET N-MOS
+F https://datasheet.lcsc.com/szlcsc/1809042027_Wuxi-NCE-Power-Semiconductor-NCE6050KA_C96013.pdf
+$ENDCMP
+#
 $CMP CPC1004N
 D Form A, Solid State Relay (Photo MOSFET) 100V, 0.3A, 4Ohm, SO-4
 K MOSFET Output Photorelay 1-Form-A
@@ -44,6 +50,12 @@ $ENDCMP
 $CMP MC74HC08A
 D AND Gate IC 4 Channel 14-SOIC
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC74HC08ADR2G/MC74HC08ADR2GOSCT-ND/1139713
+$ENDCMP
+#
+$CMP NCE6050KA
+D 50A Id, 60V Vds, N-Channel Power MOSFET, 20mOhm Ron, 50nC Qg (typ), TO-252-2
+K LCSC Power MOSFET N-MOS
+F https://datasheet.lcsc.com/szlcsc/1809042027_Wuxi-NCE-Power-Semiconductor-NCE6050KA_C96013.pdf
 $ENDCMP
 #
 $CMP NCP163
@@ -112,7 +124,7 @@ $ENDCMP
 #
 $CMP UCC27200
 D High and Low Side Driver, 120V, 3.0/3.0A, High immunity, SOIC-8/SO-8
-K Gate Driver
+K LCSC Gate Driver
 F http://www.ti.com/product/UCC27200?qgpn=ucc27200
 $ENDCMP
 #
