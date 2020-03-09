@@ -47,6 +47,12 @@ D INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator
 F http://www.ti.com/lit/ds/symlink/ina381.pdf
 $ENDCMP
 #
+$CMP INA826
+D Precision Instrumentation Amplifier G = 1 + 50kOhm/Rg, SOIC-8
+K instrumentation opamp
+F http://www.ti.com/lit/ds/symlink/ina826.pdf
+$ENDCMP
+#
 $CMP MC74HC08A
 D AND Gate IC 4 Channel 14-SOIC
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC74HC08ADR2G/MC74HC08ADR2GOSCT-ND/1139713

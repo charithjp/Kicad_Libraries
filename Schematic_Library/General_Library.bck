@@ -47,6 +47,10 @@ D INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator
 F http://www.ti.com/lit/ds/symlink/ina381.pdf
 $ENDCMP
 #
+$CMP LA6500
+D 30V 1A Power Amplifier
+$ENDCMP
+#
 $CMP MC74HC08A
 D AND Gate IC 4 Channel 14-SOIC
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC74HC08ADR2G/MC74HC08ADR2GOSCT-ND/1139713
@@ -124,7 +128,7 @@ $ENDCMP
 #
 $CMP UCC27200
 D High and Low Side Driver, 120V, 3.0/3.0A, High immunity, SOIC-8/SO-8
-K Gate Driver
+K LCSC Gate Driver
 F http://www.ti.com/product/UCC27200?qgpn=ucc27200
 $ENDCMP
 #
