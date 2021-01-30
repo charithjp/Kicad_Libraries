@@ -84,6 +84,12 @@ K 250mA LDO Regulator Fixed Positive
 F https://www.onsemi.com/pub/Collateral/NCP163-D.PDF
 $ENDCMP
 #
+$CMP NUCLEO64-G474RE
+D Nucleo 64 Development Board with STM32G474RE MCU, 128kB RAM, 512KB FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/data_brief/nucleo-g474re.pdf
+$ENDCMP
+#
 $CMP Omron_Tactile_B3F-1xxx
 D MEC 5G single pole normally-open tactile switch
 K switch normally-open pushbutton push-button
