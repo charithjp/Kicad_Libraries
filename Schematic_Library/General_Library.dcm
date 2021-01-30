@@ -37,6 +37,14 @@ $CMP HDR_2x04
 D 2x04 Pin Header
 $ENDCMP
 #
+$CMP HDR_2x10
+D 2x10 Pin Header
+$ENDCMP
+#
+$CMP HDR_2x12
+D 2x12 Pin Header
+$ENDCMP
+#
 $CMP HEF4043B
 D S-R Latch 4 Channel 1:1 IC Tri-State 16-SO
 F https://www.digikey.com/product-detail/en/nexperia-usa-inc/HEF4043BT653/1727-1799-1-ND/4764782
@@ -58,6 +66,12 @@ D AND Gate IC 4 Channel 14-SOIC
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC74HC08ADR2G/MC74HC08ADR2GOSCT-ND/1139713
 $ENDCMP
 #
+$CMP MP2451
+D 0.6A, 2MHz Step-Down DC/DC Converter, 0.8V-28V output voltage, TSOT23-6
+K 0.6A 2MHz Step-Down DC/DC
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2451/document_id/253
+$ENDCMP
+#
 $CMP NCE6050KA
 D 50A Id, 60V Vds, N-Channel Power MOSFET, 20mOhm Ron, 50nC Qg (typ), TO-252-2
 K LCSC Power MOSFET N-MOS
@@ -74,6 +88,12 @@ $CMP Omron_Tactile_B3F-1xxx
 D MEC 5G single pole normally-open tactile switch
 K switch normally-open pushbutton push-button
 F https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3F-1002/SW401-ND/11881
+$ENDCMP
+#
+$CMP PGA280
+D Zero-Drift Programmable Gain Amplifier x0.125-x128 gains, TSSOP-24
+K PGA SPI
+F https://www.ti.com/lit/ds/symlink/pga280.pdf
 $ENDCMP
 #
 $CMP R-78HB12-0.5
@@ -124,8 +144,24 @@ K N-Channel MOSFET
 F https://www.vishay.com/docs/76718/sqjq480e.pdf
 $ENDCMP
 #
+$CMP STM32F334R8Tx
+D ARM Cortex-M4 MCU, 64KB flash, 12KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M4 STM32F3 STM32F334
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00097745.pdf
+$ENDCMP
+#
+$CMP STM32G474RBT3
+D ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 170MHz, 2-3.6V, 52 GPIO, LQFP-64
+K ARM Cortex-M4 STM32G4 STM32G474
+F https://www.st.com/resource/en/datasheet/stm32g474cb.pdf
+$ENDCMP
+#
 $CMP SWD_HDR
 D 5P Header for SWD Programming
+$ENDCMP
+#
+$CMP SWD_HDR_ST-LINK-V3
+D 6P Header for SWD Programming
 $ENDCMP
 #
 $CMP UCC27200
