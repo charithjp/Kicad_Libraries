@@ -50,6 +50,12 @@ D S-R Latch 4 Channel 1:1 IC Tri-State 16-SO
 F https://www.digikey.com/product-detail/en/nexperia-usa-inc/HEF4043BT653/1727-1799-1-ND/4764782
 $ENDCMP
 #
+$CMP INA190A5
+D Current Shunt Monitor −0.2V to +40V Common-Mode Range, 500V/V, SOT23-8
+K current shunt sense amplifier
+F https://www.ti.com/lit/ds/sbos863d/sbos863d.pdf?ts=1612283318204
+$ENDCMP
+#
 $CMP INA381
 D INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator
 F http://www.ti.com/lit/ds/symlink/ina381.pdf
@@ -168,6 +174,12 @@ $ENDCMP
 #
 $CMP SWD_HDR_ST-LINK-V3
 D 6P Header for SWD Programming
+$ENDCMP
+#
+$CMP TLV4110IDGNR
+D Single Supply, Rail to Rail, 300mA Power Amplifier, MSOP-8-PowerPad
+K amplifier msop-8
+F https://www.ti.com/lit/ds/symlink/tlv4110.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1612561502374
 $ENDCMP
 #
 $CMP UCC27200
