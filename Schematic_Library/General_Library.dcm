@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8220
+D Single J-FET Instrumentation amplifier, MSOP-8
+K single jfet instumentation amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8220.pdf
+$ENDCMP
+#
+$CMP AD8421
+D Single Low Power Instrumentation Amplifier, SOIC-8/MSOP-8
+K single instumentation amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8421.pdf
+$ENDCMP
+#
+$CMP AD8422
+D Single High Performance, Low Power, Rail-to-Rail Precision Instrumentation Amplifier, SOIC-8/MSOP-8
+K single instumentation amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8422.pdf
+$ENDCMP
+#
+$CMP AD8429
+D Single Low Noise Instrumentation Amplifier, SOIC-8
+K single instumentation amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf
+$ENDCMP
+#
 $CMP ADR4525ARZ
 D 2.5V Voltage Reference, Ultralow Noise High Accuracy, SOIC-8
 K voltage reference Ultraprecision Low Noise
