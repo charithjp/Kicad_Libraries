@@ -1,5 +1,47 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10uH
+D SMD,4x4x2mm Power Inductor 10uH 0.165mΩ 1.6A ROHS
+K inductor choke coil reactor magnetic JLCPCB LCSC
+F https://datasheet.lcsc.com/lcsc/1809251515_SXN-Shun-Xiang-Nuo-Elec-SMNR4020-10UH_C135263.pdf
+$ENDCMP
+#
+$CMP 78L05G-AB3-R
+D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89
+K Voltage Regulator 100mA Positive JLCPCB LCSC
+F https://datasheet.lcsc.com/lcsc/1810271811_UTC-Unisonic-Tech-78L12G-AB3-R_C75501.pdf
+$ENDCMP
+#
+$CMP 78L12G-AB3-R
+D Positive 100mA 30V Linear Regulator, Fixed Output 12V, SOT-89
+K Voltage Regulator 100mA Positive JLCPCB LCSC
+F https://datasheet.lcsc.com/lcsc/1810271811_UTC-Unisonic-Tech-78L12G-AB3-R_C75501.pdf
+$ENDCMP
+#
+$CMP AD8220
+D Single J-FET Instrumentation amplifier, MSOP-8
+K single jfet instumentation amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8220.pdf
+$ENDCMP
+#
+$CMP AD8421
+D Single Low Power Instrumentation Amplifier, SOIC-8/MSOP-8
+K single instumentation amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8421.pdf
+$ENDCMP
+#
+$CMP AD8422
+D Single High Performance, Low Power, Rail-to-Rail Precision Instrumentation Amplifier, SOIC-8/MSOP-8
+K single instumentation amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8422.pdf
+$ENDCMP
+#
+$CMP AD8429
+D Single Low Noise Instrumentation Amplifier, SOIC-8
+K single instumentation amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf
+$ENDCMP
+#
 $CMP ADR4525ARZ
 D 2.5V Voltage Reference, Ultralow Noise High Accuracy, SOIC-8
 K voltage reference Ultraprecision Low Noise
@@ -18,10 +60,33 @@ K LCSC Power MOSFET N-MOS
 F https://datasheet.lcsc.com/szlcsc/1809042027_Wuxi-NCE-Power-Semiconductor-NCE6050KA_C96013.pdf
 $ENDCMP
 #
+$CMP BNC
+D BNC
+K BNC JLCPCB LCSC
+F  ~
+$ENDCMP
+#
+$CMP Barrel_Jack_2.0mm_5.5mm_5A
+D DC Barrel Jack
+K DC power barrel jack connector
+$ENDCMP
+#
+$CMP Barrel_Jack_2.0mm_5.5mm_8A
+D DC Barrel Jack
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
 $CMP CPC1004N
 D Form A, Solid State Relay (Photo MOSFET) 100V, 0.3A, 4Ohm, SO-4
 K MOSFET Output Photorelay 1-Form-A
 F http://www.ixysic.com/home/pdfs.nsf/www/CPC1004N.pdf/$file/CPC1004N.pdf
+$ENDCMP
+#
+$CMP DPBW06F-15
+D XP Power 6W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±200mA, 9-36V Input Voltage, SIP
+K Meanwell DC/DC isolated Converter module
+F https://media.digikey.com/pdf/Data%20Sheets/Mean%20Well%20PDF's/SPBW06,DPBW06_Ds.pdf
 $ENDCMP
 #
 $CMP Delta_E48SC12010NRFA
@@ -67,9 +132,33 @@ K instrumentation opamp
 F http://www.ti.com/lit/ds/symlink/ina826.pdf
 $ENDCMP
 #
+$CMP L_SXN_SMNR4020
+D SMD,4x4x2mm Power Inductor 10uH 0.165mΩ 1.6A ROHS
+K inductor choke coil reactor magnetic JLCPCB LCSC
+F https://datasheet.lcsc.com/lcsc/1809251515_SXN-Shun-Xiang-Nuo-Elec-SMNR4020-10UH_C135263.pdf
+$ENDCMP
+#
 $CMP MC74HC08A
 D AND Gate IC 4 Channel 14-SOIC
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC74HC08ADR2G/MC74HC08ADR2GOSCT-ND/1139713
+$ENDCMP
+#
+$CMP MC79M08_TO252
+D Negative 500mA 35V Linear Regulator, Fixed Output -8V, TO-252
+K Voltage Regulator 500mA Negative
+F http://www.onsemi.com/pub/Collateral/MC79M00-D.PDF
+$ENDCMP
+#
+$CMP MC79M12_TO252
+D Negative 500mA 35V Linear Regulator, Fixed Output -12V, TO-252
+K Voltage Regulator 500mA Negative JLCPCB LCSC
+F https://datasheet.lcsc.com/lcsc/1810010129_ON-Semiconductor-MC79M12BDTRKG_C126400.pdf
+$ENDCMP
+#
+$CMP MC79M15_TO252
+D Negative 500mA 35V Linear Regulator, Fixed Output -15V, TO-252
+K Voltage Regulator 500mA Negative
+F http://www.onsemi.com/pub/Collateral/MC79M00-D.PDF
 $ENDCMP
 #
 $CMP MP2451
@@ -108,42 +197,6 @@ K PGA SPI
 F https://www.ti.com/lit/ds/symlink/pga280.pdf
 $ENDCMP
 #
-$CMP R-78HB12-0.5
-D 500mA Step-Down DC/DC-Regulator, 17-72V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
-K dc-dc recom Step-Down DC/DC-Regulator
-F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-$ENDCMP
-#
-$CMP R-78HB15-0.5
-D 500mA Step-Down DC/DC-Regulator, 20-72V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
-K dc-dc recom Step-Down DC/DC-Regulator
-F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-$ENDCMP
-#
-$CMP R-78HB3.3-0.5
-D 500mA Step-Down DC/DC-Regulator, 9-72V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
-K dc-dc recom Step-Down DC/DC-Regulator
-F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-$ENDCMP
-#
-$CMP R-78HB5.0-0.5
-D 500mA Step-Down DC/DC-Regulator, 9-72V input, 5.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
-K dc-dc recom Step-Down DC/DC-Regulator
-F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-$ENDCMP
-#
-$CMP R-78HB6.5-0.5
-D 500mA Step-Down DC/DC-Regulator, 9-72V input, 6.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
-K dc-dc recom Step-Down DC/DC-Regulator
-F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-$ENDCMP
-#
-$CMP R-78HB9.0-0.5
-D 500mA Step-Down DC/DC-Regulator, 14-72V input, 9.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
-K dc-dc recom Step-Down DC/DC-Regulator
-F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-$ENDCMP
-#
 $CMP R-78HE5.0-0.3
 D 300mA Step-Down DC/DC-Regulator, 6.5-72V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
 K dc-dc recom Step-Down DC/DC-Regulator
@@ -154,6 +207,12 @@ $CMP SQJQ480E
 D 150A Id, 80V Vds, 3mOhm Rds, N-Channel MOSFET PowerPAK 8x8L
 K N-Channel MOSFET
 F https://www.vishay.com/docs/76718/sqjq480e.pdf
+$ENDCMP
+#
+$CMP SS14
+D 40V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky JLCPCB LCSC
+F https://datasheet.lcsc.com/lcsc/2105061432_MDD%EF%BC%88Microdiode-Electronics%EF%BC%89-SS14_C2480.pdf
 $ENDCMP
 #
 $CMP STM32F334R8Tx
