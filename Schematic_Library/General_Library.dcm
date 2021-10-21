@@ -54,6 +54,12 @@ K 24bit ADC 8 Channels PGA SPI
 F http://www.ti.com/product/ADS1256
 $ENDCMP
 #
+$CMP ADS1258
+D 24-bit ADC, 16 Channels, SPI compatible, QFN-48
+K 24bit ADC 16 Channels SPI
+F http://www.ti.com/product/ADS1258
+$ENDCMP
+#
 $CMP AOD2610E
 D 46A Id, 60V Vds, N-Channel Power MOSFET, 9.5mOhm Ron, 14.5nC Qg (typ), TO-252-2
 K LCSC Power MOSFET N-MOS
@@ -81,6 +87,18 @@ $CMP CPC1004N
 D Form A, Solid State Relay (Photo MOSFET) 100V, 0.3A, 4Ohm, SO-4
 K MOSFET Output Photorelay 1-Form-A
 F http://www.ixysic.com/home/pdfs.nsf/www/CPC1004N.pdf/$file/CPC1004N.pdf
+$ENDCMP
+#
+$CMP DB9_Female_MountingHoles
+D 9-pin female D-SUB connector, Mounting Hole
+K connector female D-SUB jlcpcb lcsc
+F https://datasheet.lcsc.com/lcsc/1811081022_CONNFLY-Elec-DS1037-09FNAKT74-0CC_C75749.pdf
+$ENDCMP
+#
+$CMP DB9_Male_MountingHoles
+D 9-pin male D-SUB connector, Mounting Hole
+K connector male D-SUB jlcpcb lcsc
+F https://datasheet.lcsc.com/lcsc/1811081022_CONNFLY-Elec-DS1037-09MNAKT74-0CC_C75750.pdf
 $ENDCMP
 #
 $CMP DPBW06F-15
@@ -191,10 +209,22 @@ K PGA SPI
 F https://www.ti.com/lit/ds/symlink/pga280.pdf
 $ENDCMP
 #
+$CMP Pluggable_Terminal_01x04
+D Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F https://datasheet.lcsc.com/lcsc/1912111437_Cixi-Kefa-Elec-KF2EDGR-3-81-4P_C441184.pdf
+$ENDCMP
+#
 $CMP R-78HE5.0-0.3
 D 300mA Step-Down DC/DC-Regulator, 6.5-72V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
 K dc-dc recom Step-Down DC/DC-Regulator
 F https://recom-power.com/pdf/Innoline/R-78HE-0.3.pdf
+$ENDCMP
+#
+$CMP RJ45_Colored
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
+K 8P8C RJ female connector led JLCPCB
+F https://datasheet.lcsc.com/lcsc/1811141116_BOOMELE-Boom-Precision-Elec-RJ45-B-1*1_C138392.pdf
 $ENDCMP
 #
 $CMP RJ45_DAQ

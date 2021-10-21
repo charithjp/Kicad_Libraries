@@ -83,6 +83,18 @@ K MOSFET Output Photorelay 1-Form-A
 F http://www.ixysic.com/home/pdfs.nsf/www/CPC1004N.pdf/$file/CPC1004N.pdf
 $ENDCMP
 #
+$CMP DB9_Female_MountingHoles
+D 9-pin female D-SUB connector, Mounting Hole
+K connector female D-SUB jlcpcb lcsc
+F https://datasheet.lcsc.com/lcsc/1811081022_CONNFLY-Elec-DS1037-09FNAKT74-0CC_C75749.pdf
+$ENDCMP
+#
+$CMP DB9_Male_MountingHoles
+D 9-pin male D-SUB connector, Mounting Hole
+K connector male D-SUB jlcpcb lcsc
+F https://datasheet.lcsc.com/lcsc/1811081022_CONNFLY-Elec-DS1037-09MNAKT74-0CC_C75750.pdf
+$ENDCMP
+#
 $CMP DPBW06F-15
 D XP Power 6W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±200mA, 9-36V Input Voltage, SIP
 K Meanwell DC/DC isolated Converter module
@@ -130,12 +142,6 @@ $CMP INA826
 D Precision Instrumentation Amplifier G = 1 + 50kOhm/Rg, SOIC-8
 K instrumentation opamp
 F http://www.ti.com/lit/ds/symlink/ina826.pdf
-$ENDCMP
-#
-$CMP L_SXN_SMNR4020
-D SMD,4x4x2mm Power Inductor 10uH 0.165mΩ 1.6A ROHS
-K inductor choke coil reactor magnetic JLCPCB LCSC
-F https://datasheet.lcsc.com/lcsc/1809251515_SXN-Shun-Xiang-Nuo-Elec-SMNR4020-10UH_C135263.pdf
 $ENDCMP
 #
 $CMP MC74HC08A
@@ -197,10 +203,28 @@ K PGA SPI
 F https://www.ti.com/lit/ds/symlink/pga280.pdf
 $ENDCMP
 #
+$CMP Pluggable_Terminal_01x04
+D Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
 $CMP R-78HE5.0-0.3
 D 300mA Step-Down DC/DC-Regulator, 6.5-72V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
 K dc-dc recom Step-Down DC/DC-Regulator
 F https://recom-power.com/pdf/Innoline/R-78HE-0.3.pdf
+$ENDCMP
+#
+$CMP RJ45_Colored
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
+K 8P8C RJ female connector led JLCPCB
+F https://datasheet.lcsc.com/lcsc/1811141116_BOOMELE-Boom-Precision-Elec-RJ45-B-1*1_C138392.pdf
+$ENDCMP
+#
+$CMP RJ45_DAQ
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
+K 8P8C RJ female connector led JLCPCB
+F https://datasheet.lcsc.com/lcsc/1811141116_BOOMELE-Boom-Precision-Elec-RJ45-B-1*1_C138392.pdf
 $ENDCMP
 #
 $CMP SQJQ480E
