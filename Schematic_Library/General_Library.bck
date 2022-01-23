@@ -54,6 +54,12 @@ K 24bit ADC 8 Channels PGA SPI
 F http://www.ti.com/product/ADS1256
 $ENDCMP
 #
+$CMP ADS1258
+D 24-bit ADC, 16 Channels, SPI compatible, QFN-48
+K 24bit ADC 16 Channels SPI
+F http://www.ti.com/product/ADS1258
+$ENDCMP
+#
 $CMP AOD2610E
 D 46A Id, 60V Vds, N-Channel Power MOSFET, 9.5mOhm Ron, 14.5nC Qg (typ), TO-252-2
 K LCSC Power MOSFET N-MOS
@@ -206,7 +212,7 @@ $ENDCMP
 $CMP Pluggable_Terminal_01x04
 D Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
 K screw terminal
-F ~
+F https://datasheet.lcsc.com/lcsc/1912111437_Cixi-Kefa-Elec-KF2EDGR-3-81-4P_C441184.pdf
 $ENDCMP
 #
 $CMP R-78HE5.0-0.3
@@ -225,6 +231,18 @@ $CMP RJ45_DAQ
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
 K 8P8C RJ female connector led JLCPCB
 F https://datasheet.lcsc.com/lcsc/1811141116_BOOMELE-Boom-Precision-Elec-RJ45-B-1*1_C138392.pdf
+$ENDCMP
+#
+$CMP RJ45_MagJack_HanRun_HR911105A
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
+K RJ45 Magjack
+F https://datasheet.lcsc.com/lcsc/1811141815_HANRUN-Zhongshan-HanRun-Elec-HR911105A_C12074.pdf
+$ENDCMP
+#
+$CMP RJ45_PoE_MagJack_HanRun_HY931147C
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, PoE AutoMDIX
+K RJ45 Magjack
+F https://datasheet.lcsc.com/lcsc/1811141115_HANRUN-Zhongshan-HanRun-Elec-HY931147C_C91754.pdf
 $ENDCMP
 #
 $CMP SQJQ480E
