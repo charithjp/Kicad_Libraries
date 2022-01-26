@@ -233,6 +233,18 @@ K 8P8C RJ female connector led JLCPCB
 F https://datasheet.lcsc.com/lcsc/1811141116_BOOMELE-Boom-Precision-Elec-RJ45-B-1*1_C138392.pdf
 $ENDCMP
 #
+$CMP RJ45_MagJack_HanRun_HR911105A
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
+K RJ45 Magjack
+F https://datasheet.lcsc.com/lcsc/1811141815_HANRUN-Zhongshan-HanRun-Elec-HR911105A_C12074.pdf
+$ENDCMP
+#
+$CMP RJ45_PoE_MagJack_HanRun_HY931147C
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, PoE AutoMDIX
+K RJ45 Magjack
+F https://datasheet.lcsc.com/lcsc/1811141115_HANRUN-Zhongshan-HanRun-Elec-HY931147C_C91754.pdf
+$ENDCMP
+#
 $CMP SQJQ480E
 D 150A Id, 80V Vds, 3mOhm Rds, N-Channel MOSFET PowerPAK 8x8L
 K N-Channel MOSFET
