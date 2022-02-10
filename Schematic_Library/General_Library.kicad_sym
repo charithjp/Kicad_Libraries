@@ -5152,7 +5152,7 @@
     (property "Value" "RJ45_PoE_MagJack_HanRun_HY931147C" (id 1) (at -19.05 15.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "General_Library:RJ45_HanRan_HY931147C" (id 2) (at 0 17.78 0)
+    (property "Footprint" "General_Library:RJ45_Hanrun_HY931147C" (id 2) (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141115_HANRUN-Zhongshan-HanRun-Elec-HY931147C_C91754.pdf" (id 3) (at 0 20.32 0)
